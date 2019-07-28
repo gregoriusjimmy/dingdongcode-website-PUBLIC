@@ -1,0 +1,109 @@
+.wrapper {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  /*background-color: red;*/
+  justify-content: space-around;
+}
+
+.welcome-text {
+  padding: 0 1rem;
+  display: block;
+  margin-top: auto;
+  width: 400px;
+  // background-color: yellow;
+  p {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 5rem;
+  }
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 300px;
+  -webkit-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.7);
+
+  .card-container {
+    padding: 1.2rem 1rem;
+  }
+  h2 {
+    margin-bottom: 0;
+  }
+  p {
+    color: #777777;
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+  .viewButton {
+    border-color: black;
+    border-radius: 5px;
+    //display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 0.3s;
+    -webkit-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 3px 10px -2px rgba(0, 0, 0, 0.7);
+  }
+  .viewButton:hover {
+    -webkit-box-shadow: 0;
+    -moz-box-shadow: 0;
+    box-shadow: 0;
+    -ms-transform: scale(0.9, 0.9); /* IE 9 */
+    -webkit-transform: scale(0.9, 0.9); /* Safari */
+    transform: scale(0.9, 0.9);
+  }
+  .buttonWrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.2rem 1rem 0.3rem;
+  }
+}
+.card:hover {
+  -ms-transform: translate(0px, -5px); /* IE 9 */
+  -webkit-transform: translate(0px, -5px); /* Safari */
+  transform: translate(0px, -5px);
+}
+.goto {
+  background-color: black;
+  text-align: center;
+  margin: 5rem auto 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  div {
+    margin: 1rem;
+    color: white;
+    height: 2rem;
+    font-weight: bold;
+  }
+  .link-ddcode {
+    background-color: white;
+    width: 150px;
+    border-radius: 20px;
+    height: 150px;
+    font-size: 2rem;
+    color: white;
+    text-decoration-line: none;
+    transition: 0.3s;
+  }
+  .link-ddcode:hover {
+    -ms-transform: scale(0.9, 0.9); /* IE 9 */
+    -webkit-transform: scale(0.9, 0.9); /* Safari */
+    transform: scale(0.9, 0.9);
+  }
+}
