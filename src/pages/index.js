@@ -17,7 +17,7 @@ const IndexPage = () => {
           title
           featuredImage {
             childImageSharp {
-              sizes(maxWidth: 630) {
+              sizes(maxWidth: 350, maxHeight: 200) {
                 ...GatsbyImageSharpSizes
               }
             }
@@ -34,23 +34,23 @@ const IndexPage = () => {
         <div className={css.welcomeText}>
           <h2>DING DONG!</h2>
           <p>
-            this website was made for store and explain my project that i have
-            created when i feels bored. I hope this website can be helpful, feel
-            free to use the source code and ask me if u have a question
+            Hey, Nice to see you here! please have a seat and enjoy discover my
+            blog
+            <br />
           </p>
         </div>
         <div>
           <h2>Lastest Post</h2>
           <div className={css.card}>
+            <Link to={`/ddcode/${data.markdownRemark.fields.slug}`}>
+              <Img
+                sizes={
+                  data.markdownRemark.frontmatter.featuredImage.childImageSharp
+                    .sizes
+                }
+              />
+            </Link>
             <div className={css.cardContainer}>
-              <Link to={`/ddcode/${data.markdownRemark.fields.slug}`}>
-                <Img
-                  sizes={
-                    data.markdownRemark.frontmatter.featuredImage
-                      .childImageSharp.sizes
-                  }
-                />
-              </Link>
               <h2>{data.markdownRemark.frontmatter.title}</h2>
               <p>{data.markdownRemark.frontmatter.date}</p>
               {data.markdownRemark.excerpt}

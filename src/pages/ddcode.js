@@ -16,7 +16,7 @@ const BlogPage = () => {
               date
               featuredImage {
                 childImageSharp {
-                  sizes(maxWidth: 630) {
+                  sizes(maxWidth: 350, maxHeight: 200) {
                     ...GatsbyImageSharpSizes
                   }
                 }
@@ -39,15 +39,14 @@ const BlogPage = () => {
           return (
             <li>
               <div className={css.card}>
+                <Link to={`/ddcode/${edge.node.fields.slug}`}>
+                  <Img
+                    sizes={
+                      edge.node.frontmatter.featuredImage.childImageSharp.sizes
+                    }
+                  />
+                </Link>
                 <div className={css.cardContainer}>
-                  <Link to={`/ddcode/${edge.node.fields.slug}`}>
-                    <Img
-                      sizes={
-                        edge.node.frontmatter.featuredImage.childImageSharp
-                          .sizes
-                      }
-                    />
-                  </Link>
                   <h2>{edge.node.frontmatter.title}</h2>
                   <p>{edge.node.frontmatter.date}</p>
                   {edge.node.excerpt}

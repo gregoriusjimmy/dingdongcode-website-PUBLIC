@@ -15,6 +15,7 @@ module.exports = {
     "gatsby-plugin-sass",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    `gatsby-plugin-mdx`,
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
@@ -42,7 +43,7 @@ module.exports = {
           {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 750,
+              maxWidth: 600,
               linkImagesToOriginal: false,
             },
           },
