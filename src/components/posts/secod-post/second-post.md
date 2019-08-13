@@ -1,15 +1,21 @@
 ---
-title: "second post"
+title: "Second Post"
 date: "2019-07-25"
-featuredImage: "./featured-image.png"
+featuredImage: "./featured-image.jpg"
 ---
 
-I just launched the first post!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ut justo nisi. Maecenas laoreet, ligula ut finibus rutrum, nunc felis suscipit neque, sed auctor elit libero nec lectus. Vestibulum aliquet finibus lacinia. Quisque pharetra a risus sed fermentum. Phasellus ex felis, condimentum et faucibus ac, interdum fermentum tortor. Etiam lacinia ut nisi iaculis efficitur. Maecenas molestie vulputate risus ut rutrum.
 
-![Grass](./grass-pic.jpg)
+Cras finibus odio ut lobortis imperdiet. Phasellus vulputate velit sed tincidunt ornare. Suspendisse potenti. Sed eu justo posuere, mattis mi quis, consectetur mauris. Fusce fermentum, odio a vestibulum eleifend, ante ligula interdum risus, nec laoreet dui diam euismod lacus. Etiam fringilla mi maximus, semper ex vel, imperdiet ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam non venenatis arcu. Duis eget sem et nunc consectetur pellentesque.
 
-## Topics Covered
+Phasellus pretium condimentum erat nec varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In in egestas velit. Pellentesque sit amet cursus dolor. Sed scelerisque lacus id massa dapibus rutrum. Pellentesque finibus tempus consequat. Pellentesque luctus a metus vitae hendrerit. Vestibulum sit amet risus at magna commodo mollis a id neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id quam sit amet ante fringilla lacinia. Vestibulum neque eros, sollicitudin et ante ac, dapibus sollicitudin mauris. Quisque luctus consequat nunc, id ultrices lacus finibus rutrum.
 
-1. Gatsby
-2. GraphQL
-3. React
+Duis blandit sed ex et accumsan. Aenean vehicula mi eu ex cursus, eu vehicula urna tincidunt. Suspendisse sit amet leo quis dolor rutrum aliquam. Phasellus ut commodo quam, vitae ornare orci. Vestibulum congue, mi sed pellentesque lacinia, elit lorem gravida ipsum, fermentum efficitur nisi odio id orci. Vivamus non lacinia libero, a suscipit sapien. Duis condimentum rutrum sem, vitae consequat dui volutpat sit amet.
+
+Vivamus sagittis, dolor ac pharetra iaculis, velit lacus efficitur sapien, ut varius felis odio quis lacus. Phasellus tempor, metus sit amet pulvinar condimentum, augue diam vehicula metus, id tincidunt tellus massa nec nibh. Aenean et ultricies mi. Aenean semper consectetur mi venenatis mattis. Mauris vitae justo nec sapien accumsan ullamcorper a eu nisi. Morbi vel ante diam. Aenean et convallis nunc. Etiam purus augue, convallis at eros vel, pretium dictum eros. Etiam facilisis, arcu non viverra imperdiet, dolor ligula molestie diam, id hendrerit purus nisi at quam. Nulla cursus viverra mattis. Nunc ultricies mollis pharetra. Suspendisse ut aliquam elit. Mauris vitae consectetur urna, in pellentesque nibh.
+
+Nulla aliquet sem purus, et posuere erat semper ac. In fermentum lobortis justo, nec dictum enim rutrum nec. Etiam tincidunt metus in ultricies consectetur. Nullam nec magna nec augue luctus ultrices. Maecenas bibendum ligula rutrum orci auctor, ac volutpat diam lacinia. Quisque porttitor odio sem, et sollicitudin ante ultricies posuere. Maecenas scelerisque, sapien a pellentesque venenatis, turpis mauris sagittis metus, eget congue lorem leo a sapien. Aenean semper venenatis tempus. Integer fermentum sem non nisl molestie, a venenatis tortor semper. Proin lacus leo, bibendum a metus tincidunt, rhoncus aliquet nibh. Phasellus vitae tellus nibh. Maecenas varius porttitor mollis.
+
+Fusce nec nunc pulvinar, tincidunt turpis vitae, consequat dui. Donec aliquam urna vehicula scelerisque consequat. Nullam in euismod turpis. Praesent tincidunt eu orci vitae suscipit. Donec quis orci quam. Fusce lacinia ex posuere, efficitur ante sed, ultrices nisl. Nullam congue leo vitae porttitor ornare.
+
+Vestibulum posuere magna eu suscipit ornare. Vivamus dignissim tellus et rhoncus interdum. Morbi pretium tempus ex. Ut pharetra sapien et gravida tempus. Ut commodo tristique ipsum, in varius arcu faucibus et. Vivamus facilisis sodales sapien, ut viverra ex bibendum sit amet. Nullam imperdiet eu libero quis elementum. Ut non molestie tortor. Quisque nisl ipsum, lacinia vitae semper quis, cursus nec mi. Donec leo lacus, elementum eu tempus sit amet, tempus in nunc.
